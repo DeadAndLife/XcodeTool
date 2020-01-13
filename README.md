@@ -33,6 +33,7 @@ Xcode代码库配置
 | 7 | simClass | 单例类初始化 |
 | 8 | cpStr | copy的字符串属性 |
 | 9 | screen | 宏定义:屏幕宽高 |
+| 10 | httpif | http简单回调处理 |
 
 ###Dash的开发者文档配置说明
 
