@@ -3,20 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>screen</string>
+	<string>dep</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
+		<string>ClassInterfaceMethods</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define SCREEN_W [UIScreen mainScreen].bounds.size.width
-#define SCREEN_H [UIScreen mainScreen].bounds.size.height</string>
+	<string>@property (nonatomic, assign) id&lt;&lt;#protocol#&gt;&gt; delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B6CE5DC7-3847-4867-8270-1924ED872DE1</string>
+	<string>52E7E21C-D3F4-4559-A7DB-5F0135457B60</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>defineScreen</string>
+	<string>delegateProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

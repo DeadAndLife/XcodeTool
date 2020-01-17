@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>simClass</string>
+	<string>st</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceVariables</string>
+		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+(instancetype)shared&lt;#ClassName#&gt;{
-    static &lt;#className#&gt; *objc;
-    static dispatch_once_t once;
-    dispatch_once(&amp;once, ^{
-        objc = [[&lt;#className#&gt; alloc] init];
-        &lt;#moreCode#&gt;
-    });
-    return objc;
-}</string>
+	<string>@property (nonatomic, strong) &lt;#TYPE#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>52B97485-150D-41A4-8A5C-D550B8C5313D</string>
+	<string>647E86D5-9D73-46DE-B296-5DC0C33528D4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>simpleModel</string>
+	<string>strongProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

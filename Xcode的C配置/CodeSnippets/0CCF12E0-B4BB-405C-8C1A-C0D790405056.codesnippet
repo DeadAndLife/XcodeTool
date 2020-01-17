@@ -3,9 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MyLog</string>
+	<string>myLog</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
@@ -13,17 +14,18 @@
 #define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
 #define NSLog(...)
-#endif
-</string>
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9BE0DB25-4087-4962-BFC7-55B488D1B06E</string>
+	<string>0CCF12E0-B4BB-405C-8C1A-C0D790405056</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MyLog</string>
+	<string>myLog</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

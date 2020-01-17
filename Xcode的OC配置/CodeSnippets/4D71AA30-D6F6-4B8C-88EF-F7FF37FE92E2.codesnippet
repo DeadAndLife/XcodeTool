@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ifhttp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (responseObject) {
+    if (DEBUG) {
+        NSLog(@"%@", responseObject);
+    }
+    NSDictionary *responseDict = (NSDictionary *)responseObject;
+    NSString *message = [responseDict safeValueForKey:@"message"];
+    NSInteger code = [[responseDict safeValueForKey:@"code"] integerValue];
+    
+    switch (code) {
+        case 200:{
+            NSDictionary *dataDict = [responseDict safeValueForKey:@"data"];
+            
+            &lt;#moreCode#&gt;
+            
+            &lt;#if (DEBUG) [SVProgressHUD setStatus:message];#&gt;
+            &lt;#[SVProgressHUD dismissWithDelay:0.3];#&gt;
+        }
+            break;
+        default:{
+            &lt;#[SVProgressHUD setStatus:message];#&gt;
+            &lt;#[SVProgressHUD dismissWithDelay:0.5];#&gt;
+        }
+            break;
+    }
+} else {
+    &lt;#if (DEBUG) {#&gt;
+    &lt;#[SVProgressHUD setStatus:error.description];#&gt;
+    &lt;#[SVProgressHUD dismissWithDelay:1.5];#&gt;
+    &lt;#} else {#&gt;
+    &lt;#[SVProgressHUD setStatus:@"网络错误，请稍后重试"];#&gt;
+    &lt;#[SVProgressHUD dismissWithDelay:0.8];#&gt;
+    &lt;#}#&gt;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4D71AA30-D6F6-4B8C-88EF-F7FF37FE92E2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>httpif</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

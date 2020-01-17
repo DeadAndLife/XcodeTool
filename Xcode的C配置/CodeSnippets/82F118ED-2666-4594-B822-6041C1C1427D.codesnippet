@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cpStr</string>
+	<string>maqu</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;#name#&gt;;</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+    &lt;#code#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5292A6CA-9D7C-4558-BF84-A2C41A49A35C</string>
+	<string>82F118ED-2666-4594-B822-6041C1C1427D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copyString</string>
+	<string>mainQueue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

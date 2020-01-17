@@ -3,10 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Acol</string>
+	<string>aCol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/*随机色
@@ -16,16 +17,25 @@
  * A            透明度，0~1
  */
 #define colRGB(R,G,B,A) [UIColor colorWithRed:R / 256.0 green:G / 256.0 blue:B / 256.0 alpha:A]
-</string>
+/**
+ hex色值转换
+ 
+ @param rgbValue hex色值，使用0x开头
+ @param alpha 透明度
+ @return 最终色值
+ */
+#define colHEX(rgbValue, A) [UIColor colorWithRed:((float)((rgbValue &amp; 0xFF0000) &gt;&gt; 16))/255.0 green:((float)((rgbValue &amp; 0xFF00) &gt;&gt; 8))/255.0 blue:((float)(rgbValue &amp; 0xFF))/255.0 alpha:A]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E594D680-2008-49C9-83BA-AC6DF48CCD37</string>
+	<string>83253165-D615-4B7F-A738-125E1DB9764C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>About Color</string>
+	<string>aboutColor</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,22 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pm</string>
+	<string>shaCls</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Lable#&gt;</string>
+	<string>+ (instancetype)shared&lt;#ClassName#&gt; {
+    static &lt;#className#&gt; *objc;
+    static dispatch_once_t once;
+    dispatch_once(&amp;once, ^{
+        objc = [[&lt;#className#&gt; alloc] init];
+        &lt;#moreCode#&gt;
+    });
+    return objc;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1E5531E-C3E4-48CC-8F2B-D21EC590F433</string>
+	<string>E7F5D00D-E649-4418-966C-F27B6296BF75</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark</string>
+	<string>sharedClass</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
