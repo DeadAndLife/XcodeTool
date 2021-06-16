@@ -6,12 +6,11 @@
 	<string>ass</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#TYPE#&gt; &lt;#name#&gt;;</string>
+	<string>/// &lt;#Description#&gt;
+@property (nonatomic, assign) &lt;#TYPE#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5CACEEB1-D1BB-4C72-B8FA-707282EBF792</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -23,6 +22,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

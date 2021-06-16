@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ausi</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/* 使用范围判断屏蔽因浮点误差等原因出现的误差减少运算量 */
+#define Auto_size(originSize) (SCREEN_W &lt; 376 &amp;&amp; SCREEN_W &gt; 374 ? originSize : SCREEN_W/375.0f*originSize)
+/* 设置最小值缩放，375及以上缩放，否则同尺寸*/
+#define Min_Auto_size(originSize) (SCREEN_W &lt;= 376 ? originSize : SCREEN_W/375.0f*originSize)
+/* 设置最大值缩放，375及以下缩放，否则同尺寸*/
+#define Max_Auto_size(originSize) (SCREEN_W &gt;= 374 ? originSize : SCREEN_W/375.0f*originSize)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CECBB540-F8F1-4CD4-A7B2-F405C4DC2F79</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AutoSize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

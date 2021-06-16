@@ -7,7 +7,6 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
-		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#define SCREEN_W [UIScreen mainScreen].bounds.size.width
@@ -15,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9DB32BBD-2924-400F-B2BD-8BA7699992BC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
@@ -23,6 +22,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

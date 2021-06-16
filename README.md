@@ -22,18 +22,21 @@ Xcode代码库配置
 
 ###我的代码块包括
 
-| 序号 | 快捷键 | 功能 |
-| :--: | :--: | :--: |
-| 1 | pm | 为代码打mark |
-| 2 | Acol | 宏定义:采用RGB256色(随机色和自定义) |
-| 3 | MyLog | 宏定义:去掉时间戳的NSLog |
-| 4 | st | 强引用属性 |
-| 5 | ass | 弱引用属性 |
-| 6 | asyMain | 将代码添加到主线程中(常用于刷新UI) |
-| 7 | simClass | 单例类初始化 |
-| 8 | cpStr | copy的字符串属性 |
-| 9 | screen | 宏定义:屏幕宽高 |
-| 10 | httpif | http简单回调处理 |
+| 快捷键 | 功能 |
+| :--: | :--: |
+| aCol | 宏定义:hex色值，RGB256色(随机色,自定义) |
+| ass | 属性:弱引用属性 |
+| ausi | 宏定义:以屏宽375为标准的自动缩放计算没需借助***defScr***宏定义 |
+| cpStr | 属性:copy的字符串属性 |
+| defScr | 宏定义:屏幕宽高 |
+| dep | 属性:代理属性 |
+| ifhttp | http简单回调处理，需自定义MSG_KEY、CODE_KEY、CODE_SUCCESS，且借助MBProgressHUD及自实现的ShowAlertTipHelper提示框 |
+| maqu | 将代码添加到主线程中(常用于刷新UI) |
+| pm | 为代码打mark |
+| myLog | 宏定义:去掉时间戳的NSLog |
+| recl | 宏定义:防止快速多次点击 |
+| shaClass | 单例类初始化 |
+| st | 属性:强引用属性 |
 
 ###Dash的开发者文档配置说明
 
